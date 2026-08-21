@@ -1,63 +1,42 @@
+<!-- Banner animado o imagen principal -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:gradient,1:30E2B5,2:69D2FE,3:A890FE&height=250&section=header&text=Jefferson%20Aguilar&fontSize=70&fontColor=ffffff&fontAlign=50&fontAlignY=38&description=Estudiante%20de%20Ingeniería%20de%20Sistemas&descriptionSize=25&descriptionColor=ffffff&descriptionAlign=50&descriptionAlignY=60&animation=twinkling&coords=0" alt="Banner Principal" />
+</div>
+
 <!-- Banner animado -->
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hola,+soy+Jefferson+Aguilar+%F0%9F%91%8B;Estudiante+de+Ingenier%C3%ADa+de+Sistemas;Creativo+en+Dise%C3%B1o+Inform%C3%A1tico;Desarrollador+Full+Stack" alt="Typing SVG" />
 </div>
 
-<br>
+<div align="center">
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="60" alt="Developer GIF" />
+</div>
 
-## 👨‍💻 Sobre mí
-
-¡Hola! Soy **Jefferson David Aguilar Rojas**, un estudiante apasionado de **Ingeniería de Sistemas** con gran entusiasmo laboral y creatividad en el diseño informático. Me encanta aprender nuevas tecnologías y crear soluciones innovadoras.
+¡Hola! Soy **Jefferson Aguilar**, estudiante de **Ingeniería de Sistemas** con mucha pasión por el diseño informático y desarrollo de software. Me caracterizo por tener un gran entusiasmo laboral y creatividad en el campo de la tecnología.
 
 ---
 
-## 🚀 Tecnologías que domino
+## 💻 Tecnologías y Herramientas
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" height="50" alt="Java"/><br/>
-        <strong>Java</strong>
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" height="50" alt="Python"/><br/>
-        <strong>Python</strong>
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" height="50" alt="JavaScript"/><br/>
-        <strong>JavaScript</strong>
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="50" height="50" alt="PHP"/><br/>
-        <strong>PHP</strong>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/springboot/springboot-original.svg" width="50" height="50" alt="Spring Boot"/><br/>
-        <strong>Spring Boot</strong>
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="50" height="50" alt="PostgreSQL"/><br/>
-        <strong>PostgreSQL</strong>
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50" height="50" alt="MySQL"/><br/>
-        <strong>MySQL</strong>
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" height="50" alt="HTML5"/><br/>
-        <strong>HTML5</strong>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" height="50" alt="CSS3"/><br/>
-        <strong>CSS3</strong>
-      </td>
-    </tr>
-  </table>
+
+### Lenguajes de Programación
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+
+### Desarrollo Web
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### Frameworks & Librerías
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+
+### Bases de Datos
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+
 </div>
 
 ---
@@ -65,29 +44,35 @@
 ## 📊 Estadísticas de GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tino117-max&show_icons=true&theme=tokyonight&hide_border=false&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF" alt="GitHub Stats" height="180"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tino117-max&theme=tokyonight&hide_border=false&background=0D1117&stroke=58A6FF" alt="GitHub Streak" height="180"/>
-</div>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Tino117-max&show_icons=true&theme=tokyonight&hide_border=false&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF&layout=compact" alt="Top Languages" height="180"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/github-stars?username=Tino117-max&theme=tokyonight" alt="GitHub Stars" height="180"/>
-</div>
+### Mi Actividad en GitHub
 
----
+| ![Estadísticas Generales](https://github-readme-stats.vercel.app/api?username=Tino117-max&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=FFFFFF&icon_color=FFFFFF&text_color=BABABA) | ![Racha de Contribución](https://github-readme-streak-stats.herokuapp.com/?user=Tino117-max&theme=dark&hide_border=true&background=0D1117&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabel=BABABA&sideNum=BABABA&dates=BABABA) |
+|---|---|
 
-## 📈 Actividad en GitHub
+### Lenguajes Más Usados
+![Top Lenguajes](https://github-readme-stats.vercel.app/api/top-langs/?username=Tino117-max&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=BABABA)
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Tino117-max&theme=tokyo-night&hide_border=false&line=58A6FF&point=FF7B72&area=true&hide_title=false&area_color=1F6FEB&color=58A6FF" alt="Activity Graph" />
 </div>
 
 ---
 
-## 🏆 Logros y Reconocimientos
+## 🏆 Trofeos y Logros
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Tino117-max&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4&column=7" alt="Trophies" />
+
+![Trofeos GitHub](https://github-profile-trophy.vercel.app/?username=Tino117-max&theme=darkhub&no-frame=true&row=1&column=4)
+
+</div>
+
+---
+
+## 📈 Gráfico de Actividad Semanal
+
+<div align="center">
+
+![Gráfico de Actividad](https://github-readme-activity-graph.vercel.app/graph?username=Tino117-max&theme=react-dark&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_title=false)
+
 </div>
 
 ---
@@ -96,24 +81,41 @@
 
 <div align="center">
 
-  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jeffersondavidaguilarrojas117@gmail.com)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jefferson-aguilar-16294342b)
-  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tino117-max)
-  [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/tino_beta117/?hl=es-la)
+### ¡Conectemos!
+
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&label=Email)](mailto:jeffersondavidaguilarrojas117@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&label=LinkedIn)](https://www.linkedin.com/in/jefferson-aguilar-16294342b)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&label=GitHub)](https://github.com/Tino117-max)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&label=Instagram)](https://www.instagram.com/tino_beta117/?hl=es-la)
 
 </div>
 
 ---
 
-## 💬 Frase del día
+## 💬 Frase Inspiradora
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Quote" />
+
+> *"El único modo de hacer un gran trabajo es amar lo que haces."* - Steve Jobs
+
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+
 </div>
 
 ---
 
-<p align="center">
-  <em>Hecho con ❤️ por <strong>Jefferson Aguilar</strong></em><br>
-  <img src="https://komarev.com/ghpvc/?username=Tino117-max&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
+## 👁️ Visitas al Perfil
+
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=Tino117-max&label=Visitas%20al%20Perfil&color=0e75b6&style=flat)
+
+</div>
+
+---
+
+<div align="center">
+
+***Desarrollado con ❤️ por Jefferson Aguilar***
+
+</div>
