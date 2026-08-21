@@ -109,10 +109,10 @@
 <div align="center">
 
 <!-- Generado automáticamente por el workflow .github/workflows/metrics.yml -->
-<img src="github-metrics/isocalendar.svg" alt="Calendario Isométrico de Commits" width="100%" />
+<img src="github-metrics/isocalendar.svg" alt="Calendario Isométrico de Commits" width="80%" />
 
 
-<img src="github-metrics/languages.svg" alt="Lenguajes más usados recientemente" width="100%" />
+<img src="github-metrics/languages.svg" alt="Lenguajes más usados recientemente" width="50%" />
 
 </div>
 
@@ -123,19 +123,26 @@
 <div align="center">
 
 <table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=Tino117-max&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=ffffff&text_color=ffffff&icon_color=ffffff" alt="Estadísticas" />
-    </td>
-    <td>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tino117-max&theme=dark&hide_border=true&background=000000&ring=ffffff&fire=ffffff&currStreakLabel=ffffff" alt="Racha" />
-    </td>
+  <tr> 
+    <td colspan="2" align="center">
+      <img src="github-metrics/stars.svg" alt="Calendario Isométrico de Commits" width="60%" />
+      <img src="github-metrics/activity.svg" alt="Calendario Isométrico de Commits" width="60%" />
+     <img src="github-metrics/notable.svg" alt="Calendario Isométrico de Commits" width="60%" />
+    
+ 
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tino117-max&layout=compact&theme=dark&hide_border=true&bg_color=000000&title_color=ffffff&text_color=ffffff" alt="Lenguajes" />
+      <img src="github-metrics/languages.svg" alt="Calendario Isométrico de Commits" width="50%" />
     </td>
   </tr>
+
+  <tr>
+     <td colspan="2" align= "center">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tino117-max&theme=dark&hide_border=true&background=000000&ring=ffffff&fire=ffffff&currStreakLabel=ffffff" alt="Racha" />
+     </td>
+  </tr>
+  
 </table>
 
 </div>
@@ -146,9 +153,9 @@
 
 <div align="center">
 
-![Trofeos GitHub](https://github-profile-trophy.vercel.app/?username=Tino117-max&theme=gitdimmed&no-frame=true&row=1&column=4)
+<img src="github-metrics/activity.svg" alt="Calendario Isométrico de Commits" width="60%" />
 
-<img src="github-metrics/achievements.svg" alt="Logros de GitHub" width="100%" />
+<img src="github-metrics/achievements.svg" alt="Logros de GitHub" width="60%" />
 
 </div>
 
