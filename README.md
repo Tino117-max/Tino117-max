@@ -9,13 +9,15 @@
 
 </div>
 
+---
+
 <br>
 
 <table>
 <tr>
 <td width="60%" valign="top">
 
-### 🖤 Sobre mí
+ 🖤 Sobre mí
 
 ¡Hola! Soy **Jefferson Aguilar**, estudiante de **Ingeniería de Sistemas** con mucha pasión por el diseño informático y el desarrollo de software. Me caracterizo por tener un gran entusiasmo laboral y creatividad en el campo de la tecnología.
 
@@ -26,14 +28,25 @@
 
 </td>
 <td width="40%" align="center">
-<img src="assets/dev-workspace.gif" alt="Programador" width="100%" style="border-radius: 10px;"/>
+<img src="assets/programador en frente de una comoutadora.gif" alt="Gran Ola de Kanagawa - Banner" width="400%" />
 </td>
+
 </tr>
+
 </table>
 
 ---
-
-## 🎋 Filosofía & Estilo (東方の美学)
+<table>
+<tr>
+  </td>
+<td width="40%" align="center">
+<img src="assets/cat pixel fan art icons.jpg" alt="Gran Ola de Kanagawa - Banner" width="100%" />
+</td>
+  
+  <td width="40%" valign="center">
+ <h2>🎋 Filosofía & Estilo (東方の美学)</h2>
+    
+---
 
 <div align="center">
 
@@ -45,9 +58,9 @@
 
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Tino117-max/Tino117-max/main/assets/divider-black.png" width="80%" alt="Divider" onerror="this.onerror=null; this.src='https://placehold.co/800x10/000000/000000.png';"/>
-</p>
+</tr>
+
+</table>
 
 ---
 
@@ -97,6 +110,7 @@
 
 <!-- Generado automáticamente por el workflow .github/workflows/metrics.yml -->
 <img src="github-metrics/isocalendar.svg" alt="Calendario Isométrico de Commits" width="100%" />
+
 
 <img src="github-metrics/languages.svg" alt="Lenguajes más usados recientemente" width="100%" />
 
@@ -154,15 +168,16 @@
 <table>
 <tr>
 <td align="center" width="33%">
-<img src="assets/love-programming.jpg" width="90%" style="border-radius: 10px;"/>
+<img src="assets/Anonymous by steelwoolbunny _ Funny laptop stickers, Computer sticker, Programmer humor.jpg" width="90%" style="border-radius: 10px;"/>
 </td>
 <td align="center" width="33%">
-<img src="assets/samurai-cat.jpg" width="90%" style="border-radius: 10px;"/>
+<img src="assets/gato arreglando un comptador.jpg" width="90%" style="border-radius: 10px;"/>
 </td>
 <td align="center" width="33%">
-<img src="assets/debug-cat.jpg" width="90%" style="border-radius: 10px;"/>
+<img src="assets/Science Kombat.gif" width="90%" style="border-radius: 10px;"/>
 </td>
 </tr>
+  
 </table>
 </div>
 
@@ -171,7 +186,7 @@
 ## 📫 Contacto
 
 <div align="center">
-  <img src="assets/creation.jpg" alt="Imagen Decorativa" width="300" style="border-radius: 10px; border: 2px solid #000;" />
+  <img src="assets/imagen decorativa.jpg" alt="Imagen Decorativa" width="300" style="border-radius: 10px; border: 2px solid #000;" />
 </div>
 
 <div align="center">
