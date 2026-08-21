@@ -1,23 +1,128 @@
-name: Metrics Isometric Calendar
+name: Generar métricas de perfil
+
 on:
-  # Se ejecuta automáticamente todas las noches a las 00:00 UTC
-  schedule: [{cron: "0 0 * * *"}]
-  # Permite ejecutarlo manualmente desde la pestaña Actions
+  schedule:
+    # Se ejecuta todos los días a las 00:00 UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Isometric Calendar
+      - name: Calendario isométrico de commits
         uses: lowlighter/metrics@latest
+        continue-on-error: true
         with:
-          # El token secreto que guardaste en el paso 2
           token: ${{ secrets.METRICS_TOKEN }}
-          
-          # Nombre del archivo que se va a generar
           filename: github-metrics/isocalendar.svg
-          
-          # Configuración del plugin
+          committer_branch: main
+          committer_message: "actualiza calendario isométrico"
           base: ""
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year # Muestra el año completo
+          plugin_isocalendar_duration: full-year
+          config_timezone: America/Bogota
+          config_display: large
+          config_theme: dark
+          config_base_color: "#000000, #ffffff"
+
+      - name: Lenguajes usados recientemente
+        uses: lowlighter/metrics@latest
+        continue-on-error: true
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics/languages.svg
+          committer_branch: main
+          committer_message: "actualiza lenguajes recientes"
+          base: ""
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 30
+          plugin_languages_categories: markup, programming
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_load: 300
+          plugin_languages_recent_days: 14
+          plugin_languages_threshold: "0%"
+          plugin_languages_limit: 8
+          config_timezone: America/Bogota
+          config_theme: dark
+
+      - name: Logros de GitHub
+        uses: lowlighter/metrics@latest
+        continue-on-error: true
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics/achievements.svg
+          committer_branch: main
+          committer_message: "actualiza logros"
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
+          config_timezone: America/Bogota
+          config_theme: dark
+
+      - name: Repositorios destacados
+        uses: lowlighter/metrics@latest
+        continue-on-error: true
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics/repositories.svg
+          committer_branch: main
+          committer_message: "actualiza repositorios destacados"
+          base: ""
+          plugin_repositories: yes
+          plugin_repositories_featured: ""
+          plugin_repositories_order: featured, pinned, stars, updated
+          config_timezone: America/Bogota
+          config_theme: dark
+
+      - name: Repositorios con estrella
+        uses: lowlighter/metrics@latest
+        continue-on-error: true
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics/stars.svg
+          committer_branch: main
+          committer_message: "actualiza repositorios con estrella"
+          base: ""
+          plugin_stars: yes
+          plugin_stars_limit: 4
+          config_timezone: America/Bogota
+          config_theme: dark
+
+      - name: Actividad reciente
+        uses: lowlighter/metrics@latest
+        continue-on-error: true
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics/activity.svg
+          committer_branch: main
+          committer_message: "actualiza actividad reciente"
+          base: ""
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          config_timezone: America/Bogota
+          config_theme: dark
+
+      - name: Contribuciones notables
+        uses: lowlighter/metrics@latest
+        continue-on-error: true
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics/notable.svg
+          committer_branch: main
+          committer_message: "actualiza contribuciones notables"
+          base: ""
+          plugin_notable: yes
+          plugin_notable_threshold: 1
+          plugin_notable_types: commit, pr, issue
+          config_timezone: America/Bogota
+          config_theme: dark
