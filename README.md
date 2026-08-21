@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Banner Principal Blanco y Negro -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,1:333333,2:000000&height=220&section=header&text=Jefferson%20Aguilar&fontSize=65&fontColor=ffffff&fontAlign=50&fontAlignY=38&description=Estudiante%20de%20Ingenier%C3%ADa%20de%20Sistemas&descriptionSize=20&descriptionColor=cccccc&descriptionAlign=50&descriptionAlignY=60&animation=twinkling&coords=0" alt="Banner Principal" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,1:333333,2:000000&height=220&section=header&text=Bienvenido%20&fontSize=65&fontColor=ffffff&fontAlign=50&fontAlignY=38&description=Estudiante%20de%20Ingenier%C3%ADa%20de%20Sistemas&descriptionSize=20&descriptionColor=cccccc&descriptionAlign=50&descriptionAlignY=60&animation=twinkling&coords=0" alt="Banner Principal" width="50%"/>
 
 <img src="assets/Banner.jpg" alt="Gran Ola de Kanagawa - Banner" width="100%" />
 
