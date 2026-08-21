@@ -1,0 +1,23 @@
+name: Metrics Isometric Calendar
+on:
+  # Se ejecuta automáticamente todas las noches a las 00:00 UTC
+  schedule: [{cron: "0 0 * * *"}]
+  # Permite ejecutarlo manualmente desde la pestaña Actions
+  workflow_dispatch:
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Isometric Calendar
+        uses: lowlighter/metrics@latest
+        with:
+          # El token secreto que guardaste en el paso 2
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+          # Nombre del archivo que se va a generar
+          filename: github-metrics/isocalendar.svg
+          
+          # Configuración del plugin
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year # Muestra el año completo
