@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <!-- Banner Principal Blanco y Negro -->
@@ -234,3 +235,5 @@
 ***Desarrollado con ❤️ y ☕ por Jefferson Aguilar***
 
 </div>
+<img width="718" height="741" alt="image" src="https://github.com/user-attachments/assets/85dce0b1-c5b6-4887-9cce-487a5c6badf4" />
+
